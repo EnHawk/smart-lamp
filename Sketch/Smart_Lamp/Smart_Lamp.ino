@@ -1,6 +1,6 @@
 #define BLYNK_PRINT Serial
 
-// Device Configuration. Can be get from My Devices > [Your Device] > Device Info
+// Device Configuration. Can be obtained from My Devices > [Your Device] > Device Info.
 #define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME ""
 #define BLYNK_AUTH_TOKEN ""
@@ -9,8 +9,8 @@
 #include <BlynkSimpleEsp32.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = ""; // The WiFi name you want the board to connect to
-char pass[] = ""; // The password of the Wifi
+char ssid[] = ""; // The WiFi name you want the board to connect to.
+char pass[] = ""; // The password of the Wifi.
 
 void setup() {
   // put your setup code here, to run once:
